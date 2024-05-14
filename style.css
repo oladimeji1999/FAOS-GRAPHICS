@@ -1,0 +1,224 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background: rgb(231, 231, 198);
+}
+.image img{
+    position: relative;
+    height: 800px;
+    width: 1245px; 
+    margin: 0 auto;
+    }
+.imageOverlay span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-position: top;
+    top: 150px;
+    left: 480px;  
+    text-align: center;
+    font-size: 80px;
+    font-style: oblique;
+    }
+    .firstDiv{
+        background: rgb(79, 5, 5);
+        padding: 16px;
+    }
+    .firstSpan{
+        height: 12px;
+        background-color: rgb(140, 200, 9);
+        padding: 12px 3%;
+        margin-right: 1%;
+        border-radius: 4px;
+    }
+    .firstDiv span a{
+        text-decoration: none;
+        color:black;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+    .secondSpan{
+        height: 12px;
+        background: aliceblue;
+        padding: 12px 3%;
+        border-radius: 4px;
+        margin-right: 1%;
+
+    }
+    span.secondSpan a{
+        color:black;
+    }
+    .thirdSpan{
+        height: 12px;
+        background-color: rgb(16, 223, 116);
+        padding: 12px 3%;
+        border-radius: 4px;
+    }
+    .CustomDesign{
+        margin-top: 10%;
+        height: 10px;
+        color: rgb(223, 235, 217);
+        background:  rgb(79, 5, 5);
+        padding: 60px 63px;
+        font-size:4.5rem;
+        vertical-align: middle;
+    }
+    a.whatsappConnect{
+        text-align: center;
+        background: rgb(140, 200, 9);
+        font-size:3rem;
+        padding: 20px;
+        margin: 15% 0;
+        display: block;
+        color:white;
+        text-decoration:none;
+        border-bottom: 3px solid red;
+        text-align: center;
+        border-bottom: 6px;
+
+    }
+    a.whatsappConnect:hover{
+        background: black;
+        color:white;
+    }
+    .personalInfo{
+        height: 250px;
+        color: rgb(223, 235, 217);
+        background:   rgb(79, 5, 5);
+        padding: 40px;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        margin-bottom: 8%;
+        /* font-style: oblique; */
+
+    }
+.guarranteeSect{
+    background: white;
+    color: black;
+    padding: 100px ;
+    color: rgb(223, 235, 217); 
+
+}
+.guarranteeSect h1{
+    padding: 10px;
+    color: black;
+}
+.guarranteeSect ul li{
+    font-size:2rem;
+    color: black;
+    font-weight: 300;
+    margin:2% 0;
+}
+.whatLink{
+    background: rgb(140, 200, 9);
+    font-size: 1.5rem;
+    padding: 20px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width:20%;
+    margin: 5% auto;
+    border-radius: 18px;
+}
+.whatLink:hover{
+    background: black;
+    color:white;
+}
+.getStarted{
+    background:rgb(79, 5, 5);
+    color: white;
+    padding: 24px;
+    margin: 4% 0;
+
+}
+.getStarted > h1{
+    text-align: center;
+    color:white;
+    line-height: 3rem;
+}
+.getStarted h2{
+    font-size: 2.8rem;
+    margin: 1% 0;
+}
+.getStarted ul{
+    font-size:2rem;
+}
+.getStarted ul li{
+    margin: 1% 0;
+}
+.bookDesign{
+    padding: 12px;
+    font-size: 16px;
+    background:rgb(140, 200, 9);
+    text-align: center;
+    color: black;
+    display: block;
+    width:20%;
+    margin:5% auto;
+    border-radius: 16px;
+    text-decoration: none;
+    color:white;
+    font-weight: 800;
+}
+.bookDesign:hover{
+    background: black;
+    color:white;
+}
+.lastDiv{
+    font-size:3rem;
+    background: black;
+    height:100px;
+    padding:10px 0;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+
+}
+.aboutUs{
+    color: rgb(79, 5, 5);
+    font-size: 3rem;
+    margin-left: 4%;
+
+}
+.teamLogo{
+    background: rgb(79, 5, 5);
+    padding: 100px;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: aliceblue;
+}
+.teamLogo h1{
+    font-size: 2.5rem;
+}
+.teamLogo ul li{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+div.imageBlock{
+    display: flex;
+    justify-content: space-between;
+
+}
+div.imageBlock img{
+    margin-bottom: 2%;
+    border-radius: 16px;
+    width: 410px;
+    height: 410px;
+
+}
+.recentDes{
+    background: black;
+    padding: 1% 0;
+    margin: 3% 0;
+    text-align: center;
+    color: white;
+}
+.recentDes p{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
