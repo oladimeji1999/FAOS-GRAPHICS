@@ -66,18 +66,18 @@ body{
         vertical-align: middle;
     }
     a.whatsappConnect{
+        padding: 12px;
+        font-size: 16px;
+        background:rgb(140, 200, 9);
         text-align: center;
-        background: rgb(140, 200, 9);
-        font-size:3rem;
-        padding: 20px;
-        margin: 15% 0;
-        display: block;
-        color:white;
-        text-decoration:none;
-        border-bottom: 3px solid red;
-        text-align: center;
-        border-bottom: 6px;
-
+        color: black;
+    display: block;
+    width:20%;
+    margin:5% auto;
+    border-radius: 16px;
+    text-decoration: none;
+    color:white;
+    font-weight: 800;
     }
     a.whatsappConnect:hover{
         background: black;
@@ -95,19 +95,19 @@ body{
 
     }
 .guarranteeSect{
-    background: white;
-    color: black;
+    background: rgb(8, 1, 45);
+    color: rgba(2, 0, 0, 0.916);
     padding: 100px ;
     color: rgb(223, 235, 217); 
 
 }
 .guarranteeSect h1{
     padding: 10px;
-    color: black;
+    color: rgb(253, 250, 250);
 }
 .guarranteeSect ul li{
     font-size:2rem;
-    color: black;
+    color: rgb(253, 250, 250);
     font-weight: 300;
     margin:2% 0;
 }
